@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Open+Sans&display=swap');
+
 body {
   height: 100vh;
   background-color: goldenrod;
@@ -12,4 +14,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.heading {
+  font-family: 'Corben', cursive;
+}
+
+.subheading {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-bee {
+  background-color: black;
+  border-color: palegoldenrod;
+  color: palegoldenrod;
+}
+
+.btn-bee:hover {
+  color: darkgoldenrod;
 }
