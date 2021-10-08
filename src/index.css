@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Open+Sans&display=swap');
+
+body {
+  height: 100vh;
+  background-color: goldenrod;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-logo {
+  height: 4rem;
+  pointer-events: none;
+  margin: 1rem;
+}
+
+.heading {
+  font-family: 'Corben', cursive;
+}
+
+.subheading {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 5px;
+}
+
+.btn-bee {
+  background-color: black;
+  border-color: palegoldenrod;
+  color: palegoldenrod;
+}
+
+.btn-bee:hover {
+  color: darkgoldenrod;
+}
+
+.table-section {
+  max-width: 75%;
+  height: 70vh;
+  overflow: scroll;
+  text-align: center;
+}
