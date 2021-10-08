@@ -16,12 +16,19 @@ code {
     monospace;
 }
 
+.App-logo {
+  height: 4rem;
+  pointer-events: none;
+  margin: 1rem;
+}
+
 .heading {
   font-family: 'Corben', cursive;
 }
 
 .subheading {
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: 5px;
 }
 
 .btn-bee {
@@ -32,4 +39,11 @@ code {
 
 .btn-bee:hover {
   color: darkgoldenrod;
+}
+
+.table-section {
+  max-width: 75%;
+  height: 70vh;
+  overflow: scroll;
+  text-align: center;
 }
